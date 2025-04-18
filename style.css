@@ -1,0 +1,108 @@
+#gameContainer {
+    width: 400px;
+    height: 600px;
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;
+    background-color: #333;
+    margin: auto;
+}
+
+#playerCar {
+    width: 40px;
+    height: 60px;
+    position: absolute;
+    bottom: 20px;
+    left: 180px;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.enemyCar {
+    width: 40px;
+    height: 60px;
+    position: absolute;
+    background-color: red;
+    border-radius: 5px;
+}
+
+#score {
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial;
+    margin: 20px;
+}
+#hi{
+    color: #0e63ff;
+    font-size: 24px;
+    font-family: Arial;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#gameOver {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    display: none;
+}
+#gameOver button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0e63ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#gameOver button:hover {
+    background-color: #0056b3;
+}
+#gameOver button:focus {
+    outline: none;
+}
+#gameOver button:active {
+    background-color: #003d80;
+}
+#gameOver h1 {
+    margin: 0;
+    font-size: 48px;
+    color: #0e63ff;
+}
+#gameOver p {
+    font-size: 24px;
+    color: white;
+}
+#gameOver h1, #gameOver p {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+h1 {
+    font-size: 48px;
+    color: #ff0e0e;
+    text-align: center;
+    margin-top: 20px;
+}
+p {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 10px;
+}
+#gameOver h1, #gameOver p {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+body {
+    background-color: #e78c8c;
+    color: #10dbfa;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
